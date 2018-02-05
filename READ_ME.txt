@@ -1,4 +1,5 @@
-Aquatic Mastery Productions (C)2017
+All files, excluding the csgo.timer.jar and gamestate...cgf, were created
+    by Aquatic Mastery Productions (C) 2017, 2018
 
 CSGO_BombAutoLaunch - syncs csgo.timer.jar with CSGO program
 CSGO_BombAutoLaunchLauncher - launches ^ in a hidden window
