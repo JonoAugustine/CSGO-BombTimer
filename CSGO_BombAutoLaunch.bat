@@ -1,4 +1,4 @@
-@ECHO ON
+@ECHO OFF
 SET csrunning=0
 SET tmrunning=0
 SET CSGO=csgo.exe
