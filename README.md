@@ -1,7 +1,8 @@
 # CSGO-BombTimer
 A windows batch system to auto-run a CSGO overlay that shows the time till the bomb blows up
-All files, excluding the csgo.timer.jar and gamestate...cgf, were created
-    by Aquatic Mastery Productions (C) 2017, 2018
+
+# All files, excluding the csgo.timer.jar and gamestate...cgf, were created
+# by Aquatic Mastery Productions (C) 2017, 2018
 
 CSGO_BombAutoLaunch - syncs csgo.timer.jar with CSGO program
 CSGO_BombAutoLaunchLauncher - launches ^ in a hidden window
