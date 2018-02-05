@@ -1,0 +1,1 @@
+CALL "%~dp0\csgo.timer.jar"
