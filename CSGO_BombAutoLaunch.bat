@@ -41,7 +41,7 @@ IF %csrunning%==1 (
 GOTO :A 
 
 :Start
-start "%~dp0\LaunchLauncher.vbs"
+start javaw -jar csgo.timer.jar
 GOTO :A
 
 echo FAILED
