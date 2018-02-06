@@ -41,7 +41,7 @@ IF %csrunning%==1 (
 GOTO :A 
 
 :Start
-CALL "%~dp0\csgo.timer.jar"
+start javaw -jar csgo.timer.jar
 GOTO :A
 
 echo FAILED
