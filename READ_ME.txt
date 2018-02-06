@@ -15,8 +15,3 @@ Set Up:
 		(to get to the startup folder, press win+r and type 'shell:startup')
 	
 3.) Always know when the bomb is gunna blow you up!
-
-Some Details:
-
-	The .bat file checks CSGO every 3 min. If you want it to update sooner, 
-	go into the CSGO....bat file and edit the wait time at the top from 180 seconds to whatever you like.

@@ -5,7 +5,7 @@ SET CSGO=csgo.exe
 SET Timer=javaw.exe
 
 :A
-TIMEOUT /T 180
+TIMEOUT /T 5
 
 REM is CSGO running? (1 = false)
 TASKLIST | FINDSTR /I %CSGO%
@@ -27,15 +27,19 @@ REM IF cs is running and timer is not,
 REM start the timer
 IF %csrunning%==1 (
    IF %tmrunning%==1 ( 
-        echo ''
+     echo ''
    ) ELSE ( 
+		echo launching
         GOTO :Start 
    )
 
     REM If cs is not running and the timer is,
     REM Stop the timer
 ) ELSE (
-    IF %tmrunning%==1 TASKKILL /IM %Timer% /F /T
+    IF %tmrunning%==1 (
+		echo ending
+		TASKKILL /IM %Timer% /F /T
+	)
 )
 
 GOTO :A 
