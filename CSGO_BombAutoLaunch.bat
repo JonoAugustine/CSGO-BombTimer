@@ -50,6 +50,7 @@ GOTO :A
 
 echo FAILED
 
+REM LOGIC:
 REM CSGO is running
 REM     Timer is running
 REM         
